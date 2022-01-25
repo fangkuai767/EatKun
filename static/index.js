@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 20) return '猴子都瞧不起你';
+    if (score <= 55) return '勉勉强强';
+    if (score <= 70) return '孙悟空注视着你';
+    if (score <= 100) return '优秀的猴子';
+    return '你肯定是作弊了';
 }
 
 function toStr(obj) {
