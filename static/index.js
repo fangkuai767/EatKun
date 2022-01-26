@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '猴子都瞧不起你';
+    if (score <= 30) return '拜托你逊爆了欸';
     if (score <= 60) return '勉勉强强';
-    if (score <= 100) return '——————猴子的力量是有极限的啊';
-    if (score <= 150) return '优秀的猴子';
-    return '你肯定是作弊了';
+    if (score <= 100) return '得到老八真传了？';
+    if (score <= 150) return '老八附体';
+    return '你就是老八本人？';
 }
 
 function toStr(obj) {
