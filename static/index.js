@@ -176,7 +176,7 @@ function SubmitResults() {
 
 function gameTime() {
     _gameTimeNum--;
-    if (_gameTimeNum <= 0) {
+    if (_gameTimeNum <= -100) {
         GameTimeLayer.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;时间到！';
         gameOver();
         GameLayerBG.className += ' flash';
